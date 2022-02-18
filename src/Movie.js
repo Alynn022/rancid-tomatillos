@@ -47,13 +47,6 @@ class Movie extends Component {
     })
   }
 
-  // formatDate = date => {
-  //   const splitDate = date.split('-')
-  //   const newDate = splitDate.slice(1)
-  //   newDate.push(splitDate[0])
-  //   return newDate.join('/')
-  // }
-
   render() {
     let dollarUSLocale = Intl.NumberFormat('en-US'); 
     const detailsView = !this.state.error && 
